@@ -1,0 +1,142 @@
+body {
+  background-color:  #103c57;
+  color: rgb(226 203 216);
+  
+}
+
+header {
+  text-align: center;
+  padding: 1vw;
+  
+}
+nav a{
+  text-decoration: none;
+  transition: 2s ease-in;
+  color: #103c57;
+  }
+nav a:hover{
+  border-bottom: 1px solid blue;
+}
+nav ul {
+  width: 100%;
+  padding: .5vw 0;
+  height: 2vw;
+  background-color: bisque;;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+
+
+
+.facilities-container{
+  padding: 1vw;
+  display: flex;
+  background-color: bisque;
+  justify-content: space-evenly;
+  padding: 2vw;
+  border-radius: 10px;
+    box-shadow: 0px 0px 12px 0px white;
+  
+}
+
+.facility-container{
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  padding: 1vw ;
+  color: #c75dbc;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.facility-container button{
+  background-color: #551a8b;
+  color: #e2cbd8  ;
+}
+
+.facilities-container span{
+  border-bottom: 1px solid rgb(19, 8, 8);
+}
+
+.illustration{
+  height: 20vw;
+  width: 20vw;
+}
+
+footer {
+  text-align: center;
+}
+
+/* ******************** VIEW ALL CUSTOMERS STYLES************* */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #103c57;
+  
+}
+th{
+    background-color: #f2f2f2;;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+ tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+ tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr {
+  height: 50px;
+  /* Set a fixed height for all rows */
+}
+
+/* ******************TRANSFER MONEY STYLES ****************** */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  display: block;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#transfer-message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgb(0, 126, 128);
+  /* Change this to your desired message color */
+}
